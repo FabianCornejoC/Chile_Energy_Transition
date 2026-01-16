@@ -12,7 +12,11 @@ Preguntas clave:
 
 Posibles Features:
 Fecha (año, mes, hora)
+
 Tipo de tecnología
+
 Región
+
 Capacidad instalada
+
 Estacionalidad
