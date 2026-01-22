@@ -7,3 +7,6 @@ The project follows a layered data pipeline:
 - **Analytics**: Aggregated and curated datasets used for analysis and visualization.
 
 Data quality rules such as handling missing values are applied only in the analytics layer.
+
+Monthly aggregated energy values were validated against raw hourly data.
+Total energy values match exactly, confirming correct aggregation logic.
