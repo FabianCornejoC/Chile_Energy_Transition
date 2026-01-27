@@ -15,7 +15,8 @@ Hourly values are summed to obtain daily energy generation.
 Daily energy values are aggregated at a monthly level by region and technology.
 
 ### Unit Conversion
-All energy values are converted from MWh to GWh.
+The original source data reports energy values in raw Wh without explicit units. During the analytics layer, values were standardized to MWh by dividing by 10⁶. All visualizations and analyses use MWh as the base unit.
+All energy values are converted to MWh.
 
 ### Technology Classification
 Technologies are classified into renewable and conventional categories following official definitions.
