@@ -47,3 +47,9 @@ SELECT
 	COALESCE(hora_25, 0) 
 	) AS total_energy_raw
 FROM generation_hourly_raw;
+
+SELECT 
+	SUM(CASE WHEN region IS NULL THEN 1 ELSE 0 END) as nulls_1,
+	SUM(CASE WHEN technology_type IS NULL THEN 1 ELSE 0 END) as nulls_2,
+	SUM(CASE WHEN energy_mwh IS NULL THEN 1 ELSE 0 END) as nulls_3
+FROM generation_monthly_analytics;
