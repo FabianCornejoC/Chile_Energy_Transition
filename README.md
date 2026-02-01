@@ -168,10 +168,13 @@ The system is highly predictable at a monthly level
 
 Simple statistical models provide operationally useful forecasts
 
-📁 Repository Structure
+## 📁 Repository Structure
 /sql        → ETL pipeline and validation
+
 /docs       → Data model and pipeline documentation
+
 /powerbi    → Final dashboard
+
 /notebooks  → EDA and forecasting analysis
 
 ## Tools & Technologies
